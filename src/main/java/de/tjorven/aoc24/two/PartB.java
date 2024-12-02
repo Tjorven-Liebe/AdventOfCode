@@ -1,7 +1,5 @@
 package de.tjorven.aoc24.two;
 
-import java.util.Arrays;
-
 public class PartB {
 
     private static boolean isSafe(int[] arr) {
@@ -10,7 +8,6 @@ public class PartB {
         }
 
         if (isStrictlySafe(arr)) {
-            System.out.println("Safe: " + Arrays.toString(arr));
             return true;
         }
 
