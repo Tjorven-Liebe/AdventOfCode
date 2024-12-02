@@ -1,7 +1,5 @@
 package de.tjorven.aoc24.one;
 
-import javafx.util.Pair;
-
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;

@@ -1,7 +1,5 @@
 package de.tjorven.aoc24.one;
 
-import javafx.util.Pair;
-
 import java.io.IOException;
 import java.util.Arrays;
 
