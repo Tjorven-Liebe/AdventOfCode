@@ -19,11 +19,7 @@ public class PartB {
                 continue;
             }
 
-            try {
-                solved += Integer.parseInt(replace[0]) * Integer.parseInt(replace[1]);
-                System.out.println(s + "=" + solved);
-            } catch (NumberFormatException ignored) {
-            }
+            solved += Integer.parseInt(replace[0]) * Integer.parseInt(replace[1]);
         }
         System.out.println(solved);
     }
